@@ -25,4 +25,52 @@ i{
 i:hover{
   color: aliceblue;
 }
+ /*loader*/
+ .N{
+   animation: N 1s infinite;
+ }
+ @keyframes N{
+   0%{
+    opacity: 1;
+
+   }
+   50%{
+    opacity: 0.5;
+   }
+   100%{
+    opacity:0.5;
+   }
+ }
+
+ .A{
+  animation: A 1s infinite;
+}
+@keyframes A{
+  0%{
+   opacity: 0.5;
+
+  }
+  50%{
+   opacity: 1;
+  }
+  100%{
+   opacity:0.5;
+  }
+}
+
+.K{
+  animation: K 1s infinite;
+}
+@keyframes K{
+  0%{
+   opacity: 0.5;
+
+  }
+  50%{
+   opacity: 0.5;
+  }
+  100%{
+   opacity:1;
+  }
+}
  
